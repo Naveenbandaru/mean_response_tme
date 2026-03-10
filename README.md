@@ -1,8 +1,5 @@
 # mean_response_tme
-Enhancing Cluster Performance by Reducing Response Time Variance Issues
-
-# cpu_usage
-**Lightweight Runtime Conflict Detection for CPU Efficient Transaction Processing**
+** Enhancing Cluster Performance by Reducing Response Time Variance Issues **
 
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
