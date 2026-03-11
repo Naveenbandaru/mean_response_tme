@@ -38,23 +38,23 @@ The framework is suitable for distributed databases, financial systems, cloud in
 
 ### Experimental Results (Summary)
 
-  | Nodes | Lock Based 2PL CPU %| Lightweight Runtime Detection %| Improvment (%) |
-  |-------|---------------------| -------------------------------| ---------------|
-  | 3     |  88                 | 55                             | 37.50          |
-  | 5     |  84                 | 49                             | 41.67          |
-  | 7     |  82                 | 46                             | 43.90          |
-  | 9     |  80                 | 43                             | 46.25          |
-  | 11    |  79                 | 41                             | 48.10          |
+  | Nodes | Static Sharding system MRT (ms) | Adaptive Scheduling system MRT (ms)| Improvment (%) |
+  |-------|---------------------------------| -----------------------------------| ---------------|
+  | 3     |  115                            | 95                                 | 17.39          |
+  | 5     |  130                            | 100                                | 23.08          |
+  | 7     |  150                            | 110                                | 26.67          |
+  | 9     |  170                            | 120                                | 29.41          |
+  | 11    |  190                            | 130                                | 31.58          |
 
 ### Citation
-Lightweight Runtime Conflict Detection for CPU Efficient Transaction Processing
+Enhancing Cluster Performance by Reducing Response Time Variance Issues
 * Naveen Kumar Bandaru
-* International Journal of Intelligent Systems and Applications in Engineering (IJISAE) 
-* ISSN 2147-6799
+* **********Need to add second conf  
+* ISSN ********2147-6799
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijisae.org/index.php/IJISAE \
+***********************https://www.ijisae.org/index.php/IJISAE \
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/naveen-bandaru | **Email**: naveen.bandaru@gmail.com
 
