@@ -8,7 +8,7 @@
 - **ISSN:**  2147-6799
 
 ### Abstract
-High concurrency transaction processing systems often experience performance degradation due to conflicts among simultaneous read and write operations. Conventional mechanisms such as Two Phase Locking and Optimistic Concurrency Control introduce blocking, repeated retries, and significant processor overhead. This work examines the impact of these mechanisms on CPU utilization and scalability in distributed environments. A lightweight runtime conflict detection approach is introduced to identify conflicts earlier during execution and reduce unnecessary computation. Experimental evaluation across multiple cluster sizes demonstrates improved processor efficiency and better scalability in transaction processing systems.
+Distributed cluster systems often experience unstable performance due to response time variance caused by synchronization delays, cross node communication, and uneven workload distribution. Existing static sharding approaches increase coordination overhead as cluster size grows, leading to rising response times and unpredictable latency. This study introduces a variance aware framework combining adaptive shard management, locality aware scheduling, and variance focused monitoring. Experimental evaluation across clusters of 3 to 11 nodes shows improved response time stability and more predictable system performance in distributed environments.
 
 ### Major Research Contributions
 - **Lightweight Runtime Conflict Detection Mechanism:**  
