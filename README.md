@@ -10,30 +10,31 @@
 ### Abstract
 Distributed cluster systems often experience unstable performance due to response time variance caused by synchronization delays, cross node communication, and uneven workload distribution. Existing static sharding approaches increase coordination overhead as cluster size grows, leading to rising response times and unpredictable latency. This study introduces a variance aware framework combining adaptive shard management, locality aware scheduling, and variance focused monitoring. Experimental evaluation across clusters of 3 to 11 nodes shows improved response time stability and more predictable system performance in distributed environments.
 
-### Major Research Contributions
-- **Lightweight Runtime Conflict Detection Mechanism:**  
-Introduced a runtime method that detects transactional conflicts early during execution using compact metadata instead of relying on heavy locking or late validation.
+### Core Innovations Presented in the Study
+- **Variance Aware Performance Framework:**  
+Introduced a system level framework that focuses on reducing response time variance by combining adaptive shard placement, locality conscious scheduling, and variance oriented telemetry analysis.
 
-- **Processor Efficient Transaction Execution:**  
-Designed a conflict management approach that reduces blocking synchronization and repeated transaction retries, leading to lower processor utilization during high concurrency workloads.
-- **Distributed Experimental Evaluation:** 
-Implemented a transaction processing model using Go based concurrent workers to simulate distributed workloads and evaluate processor utilization across cluster sizes.
+- **Locality Driven Transaction Scheduling:**  
+Developed a scheduling strategy that prioritizes transactions based on node load and data locality to minimize cross node coordination and synchronization delays.
 
-- **Scalability Analysis Across Cluster Sizes:**  
-Conducted experiments on clusters with 3, 5, 7, 9, and 11 nodes to analyze how CPU utilization changes as transaction processing systems scale.
+- **Prototype Based Cluster Evaluation:** 
+Implemented a distributed cluster simulation using Go based processing to evaluate response time behavior and workload distribution across different cluster configurations.
 
-### Practical Significance and Impact
-- **Reduced Processor Utilization:**
-The lightweight runtime approach significantly lowers CPU usage compared with conventional locking and optimistic concurrency control mechanisms.
+- **Scalability Assessment Across Node Configurations:**  
+Conducted experiments on clusters containing 3, 5, 7, 9, and 11 nodes to examine how adaptive scheduling stabilizes response time as cluster size increases.
 
-- **Improved Transaction Processing Efficiency:**  
-Early conflict detection minimizes wasted computation caused by blocking synchronization and repeated transaction retries.
+### System Level Value and Operational Benefits
+- **Lower Mean Response Time:**
+The adaptive scheduling framework significantly reduces mean response time compared with static sharding architectures in distributed clusters.
 
-- **Better Scalability for Distributed Systems:**  
-Processor consumption decreases steadily as cluster size increases, demonstrating efficient resource utilization and improved scalability.
+- **Improved Performance Predictability:**  
+Variance focused monitoring and adaptive scheduling reduce jitter, enabling more stable and consistent response times across workloads.
 
-- **Suitability for High Concurrency Platforms:**  
-The framework supports efficient transaction processing in environments such as distributed databases, cloud systems, and microservice based platforms.
+- **Enhanced Scalability in Cluster Environments:**  
+Response time growth remains controlled as cluster size increases, demonstrating that variance aware mechanisms support reliable scaling.
+
+- **Applicability to Mission Critical Distributed Platforms:**  
+The framework is suitable for distributed databases, financial systems, cloud infrastructures, and real time analytics platforms that require predictable performance and stable response times.
 
 ### Experimental Results (Summary)
 
