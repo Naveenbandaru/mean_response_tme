@@ -52,7 +52,7 @@ Enhancing Cluster Performance by Reducing Response Time Variance Issues
 * International Conference on Computer, Cybernetics and Education, ICCCE 2026, 27-28 February 2026, Bali, Indonesia  
 * ISBN 978-81-981425-0-4
 * License \
-This research is shared for a academic and research purposes. For commercial use, please contact the author.\
+This research is shared for a academic and research purposes. For commercial use, please contact the author.
 
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/naveen-bandaru | **Email**: naveen.bandaru@gmail.com
