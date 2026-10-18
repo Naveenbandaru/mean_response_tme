@@ -3,7 +3,7 @@
 
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
-- **Published In:** International Conference on Computer, Cybernetics and Education, ICCCE 2026, 27-28 February 2026, Bali, Indonesia
+- **Published In:** International Conference on Computer, Cybernetics and Education, ICCCE  Bali, Indonesia
 - **Publication Date:** Feb, 2026
 - **ISBN:**  978-81-981425-0-4
 
