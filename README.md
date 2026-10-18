@@ -3,9 +3,9 @@
 
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
-- **Published In:** Need to add conf name*****************
+- **Published In:** International Conference on Computer, Cybernetics and Education, ICCCE 2026, 27-28 February 2026, Bali, Indonesia
 - **Publication Date:** Feb, 2026
-- **ISSN:**  2147-6799
+- **ISBN:**  978-81-981425-0-4
 
 ### Abstract
 Distributed cluster systems often experience unstable performance due to response time variance caused by synchronization delays, cross node communication, and uneven workload distribution. Existing static sharding approaches increase coordination overhead as cluster size grows, leading to rising response times and unpredictable latency. This study introduces a variance aware framework combining adaptive shard management, locality aware scheduling, and variance focused monitoring. Experimental evaluation across clusters of 3 to 11 nodes shows improved response time stability and more predictable system performance in distributed environments.
@@ -49,12 +49,11 @@ The framework is suitable for distributed databases, financial systems, cloud in
 ### Citation
 Enhancing Cluster Performance by Reducing Response Time Variance Issues
 * Naveen Kumar Bandaru
-* **********Need to add second conf  
-* ISSN ********2147-6799
+* International Conference on Computer, Cybernetics and Education, ICCCE 2026, 27-28 February 2026, Bali, Indonesia  
+* ISBN 978-81-981425-0-4
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
-**Resources** \
-***********************https://www.ijisae.org/index.php/IJISAE \
+
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/naveen-bandaru | **Email**: naveen.bandaru@gmail.com
 
